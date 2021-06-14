@@ -2,14 +2,15 @@ import React, { FC } from 'react'
 import { TouchableOpacity, View, Text, StyleSheet } from 'react-native';
 
 interface FabProps {
+    position?: 'br' | 'bl'
     title: string
+    onPress: () => void
 }
 
-const Fab: FC<FabProps> = ({ title }) => {
+const Fab: FC<FabProps> = ({ onPress, position = 'br', title }) => {
     return (
         <TouchableOpacity
-            onPress={() => console.log('Counter')
-            }
+            onPress={onPress}
             style={styles.fabLocationBR}
         >
             <View style={styles.fab}>
