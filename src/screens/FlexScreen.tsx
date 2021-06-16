@@ -15,9 +15,9 @@ export default FlexScreen
 
 const styles = StyleSheet.create({
   container: {
+    alignItems: 'flex-end',
     backgroundColor: '#28c4d9',
     flex: 1,
-    justifyContent: 'center'
   },
   box1: {
     borderColor: '#ffffff',
