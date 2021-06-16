@@ -16,21 +16,22 @@ export default FlexScreen
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#28c4d9',
-    flex: 1
+    flex: 1,
+    flexDirection: 'row'
   },
   box1: {
     borderColor: '#ffffff',
     borderWidth: 2,
-    flex: 3 // 3 + 2 + 1 = 6
+    fontSize: 30
   },
   box2: {
     borderColor: '#ffffff',
     borderWidth: 2,
-    flex: 2
+    fontSize: 30
   },
   box3: {
     borderColor: '#ffffff',
     borderWidth: 2,
-    flex: 1
+    fontSize: 30
   }
 });
