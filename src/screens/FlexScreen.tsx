@@ -7,6 +7,33 @@ const FlexScreen = () => {
       <Text style={styles.box1}>Box 1</Text>
       <Text style={styles.box2}>Box 2</Text>
       <Text style={styles.box3}>Box 3</Text>
+      <Text style={styles.box1}>Box 1</Text>
+      <Text style={styles.box2}>Box 2</Text>
+      <Text style={styles.box3}>Box 3</Text>
+      <Text style={styles.box1}>Box 1</Text>
+      <Text style={styles.box2}>Box 2</Text>
+      <Text style={styles.box3}>Box 3</Text>
+      <Text style={styles.box1}>Box 1</Text>
+      <Text style={styles.box2}>Box 2</Text>
+      <Text style={styles.box3}>Box 3</Text>
+      <Text style={styles.box1}>Box 1</Text>
+      <Text style={styles.box2}>Box 2</Text>
+      <Text style={styles.box3}>Box 3</Text>
+      <Text style={styles.box1}>Box 1</Text>
+      <Text style={styles.box2}>Box 2</Text>
+      <Text style={styles.box3}>Box 3</Text>
+      <Text style={styles.box1}>Box 1</Text>
+      <Text style={styles.box2}>Box 2</Text>
+      <Text style={styles.box3}>Box 3</Text>
+      <Text style={styles.box1}>Box 1</Text>
+      <Text style={styles.box2}>Box 2</Text>
+      <Text style={styles.box3}>Box 3</Text>
+      <Text style={styles.box1}>Box 1</Text>
+      <Text style={styles.box2}>Box 2</Text>
+      <Text style={styles.box3}>Box 3</Text>
+      <Text style={styles.box1}>Box 1</Text>
+      <Text style={styles.box2}>Box 2</Text>
+      <Text style={styles.box3}>Box 3</Text>
     </View>
   )
 }
@@ -15,23 +42,23 @@ export default FlexScreen
 
 const styles = StyleSheet.create({
   container: {
+    alignItems: 'flex-start',
     backgroundColor: '#28c4d9',
     flex: 1,
+    flexDirection: 'row',
+    flexWrap: 'wrap'
   },
   box1: {
-    alignSelf: 'center',
     borderColor: '#ffffff',
     borderWidth: 2,
     fontSize: 30
   },
   box2: {
-    alignSelf: 'flex-start',
     borderColor: '#ffffff',
     borderWidth: 2,
     fontSize: 30
   },
   box3: {
-    alignSelf: 'flex-end',
     borderColor: '#ffffff',
     borderWidth: 2,
     fontSize: 30
